@@ -1,0 +1,6 @@
+release/
+__pycache__/
+*.pyc
+*.pyo
+*.tmp
+*.bak
