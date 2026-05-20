@@ -4,7 +4,11 @@
 
 This repository includes a full HTML example output:
 
-- [examples/artifacts/storyline_tree_2026-05-20.html](../examples/artifacts/storyline_tree_2026-05-20.html)
+- [storyline_tree_2026-05-20.html](https://github.com/Solatrader/syft-cli-skills/blob/main/examples/artifacts/storyline_tree_2026-05-20.html)
+
+Static preview:
+
+![Storyline tree example](https://raw.githubusercontent.com/Solatrader/syft-cli-skills/main/assets/storyline-tree-example.png)
 
 That file demonstrates the kind of deliverable the storyline workflow is trying to produce:
 

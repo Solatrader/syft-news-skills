@@ -65,6 +65,10 @@ Typical outputs include:
 - `storylines/storyline_tree_<date>.html`
 - `storylines/storyline_tree_<date>.json`
 
+Static preview of a real storyline tree output:
+
+![Storyline tree example](assets/storyline-tree-example.png)
+
 You can inspect a full storyline tree example here:
 
 - [examples/artifacts/storyline_tree_2026-05-20.html](examples/artifacts/storyline_tree_2026-05-20.html)
