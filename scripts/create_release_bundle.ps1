@@ -7,8 +7,8 @@ $ErrorActionPreference = "Stop"
 
 $releaseRoot = Join-Path $RepoRoot "release"
 $stagingRoot = Join-Path $releaseRoot "staging"
-$bundleRoot = Join-Path $stagingRoot "syft-cli-skills"
-$zipPath = Join-Path $releaseRoot ("syft-cli-skills-" + $Version + ".zip")
+$bundleRoot = Join-Path $stagingRoot "syft-news-skills"
+$zipPath = Join-Path $releaseRoot ("syft-news-skills-" + $Version + ".zip")
 
 if (Test-Path $stagingRoot) {
     Remove-Item -LiteralPath $stagingRoot -Recurse -Force

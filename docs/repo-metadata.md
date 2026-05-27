@@ -4,7 +4,7 @@ Suggested repository settings for GitHub.
 
 ## Name
 
-`syft-cli-skills`
+`syft-news-skills`
 
 ## Description
 

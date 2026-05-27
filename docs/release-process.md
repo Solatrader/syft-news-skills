@@ -1,6 +1,6 @@
 # Release Process
 
-Use this workflow when preparing a GitHub release for `syft-cli-skills`.
+Use this workflow when preparing a GitHub release for `syft-news-skills`.
 
 ## 1. Update Source Skills
 

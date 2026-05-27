@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve `syft-cli-skills`.
+Thanks for helping improve `syft-news-skills`.
 
 ## Source Of Truth
 

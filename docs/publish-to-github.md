@@ -1,12 +1,12 @@
 # Publish To GitHub
 
-Use this checklist when you are ready to publish `syft-cli-skills` as a new public repository.
+Use this checklist when you are ready to publish `syft-news-skills` as a new public repository.
 
 ## 1. Create The Repository On GitHub
 
 Create a new public repository named:
 
-`syft-cli-skills`
+`syft-news-skills`
 
 Use the metadata in [repo-metadata.md](repo-metadata.md) for the description and topics.
 
@@ -27,7 +27,7 @@ From the repository root:
 git init
 git branch -M main
 git add .
-git commit -m "feat: bootstrap syft cli skills repository"
+git commit -m "feat: bootstrap syft news skills repository"
 ```
 
 ## 3. Add The Remote And Push
@@ -35,14 +35,14 @@ git commit -m "feat: bootstrap syft cli skills repository"
 Replace `<YOUR_GITHUB_USERNAME>` with your account name:
 
 ```powershell
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/syft-cli-skills.git
+git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/syft-news-skills.git
 git push -u origin main
 ```
 
 If you prefer SSH:
 
 ```powershell
-git remote add origin git@github.com:<YOUR_GITHUB_USERNAME>/syft-cli-skills.git
+git remote add origin git@github.com:<YOUR_GITHUB_USERNAME>/syft-news-skills.git
 git push -u origin main
 ```
 
@@ -56,7 +56,7 @@ Suggested workflow:
 
 1. create a GitHub release
 2. use [releases/v0.1.0.md](../releases/v0.1.0.md) as the release notes base
-3. upload `release/syft-cli-skills-v0.1.0.zip` as a release asset
+3. upload `release/syft-news-skills-v0.1.0.zip` as a release asset
 
 ## 5. Post-Publish Checks
 

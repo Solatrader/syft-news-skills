@@ -49,6 +49,21 @@ Apply these rules across every route:
 1. Confirm `syft` is available before doing workflow work.
 Run `syft status`.
 
+If the command is not found or the CLI is missing, pause the workflow and tell the user to install the official package first:
+
+```bash
+npm install -g @orionarm/syft-cli
+```
+
+Then have the user run:
+
+```bash
+syft login
+syft status
+```
+
+Only continue after the CLI is available and authenticated.
+
 2. Treat `syft following` as the declared-interest source of truth in Syft-only environments.
 If you also have a profile summary or a confirmed rulebook, use them as interpretation layers rather than replacements for the following list.
 

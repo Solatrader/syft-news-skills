@@ -2,7 +2,7 @@
 
 Syft AI is an AI-powered news product organized around followed topics, source-aware story pools, and a more personal reading surface than a generic one-size-fits-all feed.
 
-![Syft AI app overview](https://raw.githubusercontent.com/Solatrader/syft-cli-skills/main/assets/app.jpg)
+![Syft AI app overview](https://raw.githubusercontent.com/Solatrader/syft-news-skills/main/assets/app.jpg)
 
 ## What Makes It Different
 

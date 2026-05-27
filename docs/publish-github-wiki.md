@@ -24,7 +24,7 @@ Official reference:
 After that, the wiki repository exists and you can clone it:
 
 ```bash
-git clone https://github.com/Solatrader/syft-cli-skills.wiki.git
+git clone https://github.com/Solatrader/syft-news-skills.wiki.git
 ```
 
 ## Recommended Local Sync Flow
@@ -47,8 +47,8 @@ Expected mapping:
 ## Push Example
 
 ```bash
-git clone https://github.com/Solatrader/syft-cli-skills.wiki.git
-cd syft-cli-skills.wiki
+git clone https://github.com/Solatrader/syft-news-skills.wiki.git
+cd syft-news-skills.wiki
 ```
 
 Copy the prepared wiki files from the main repository, then:

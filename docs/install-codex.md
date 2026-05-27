@@ -2,6 +2,16 @@
 
 This repository provides a Codex-oriented mirror under `codex-skills/`.
 
+Before installing any of the skills, make sure Syft CLI is available on the same machine:
+
+```bash
+npm install -g @orionarm/syft-cli
+syft login
+syft status
+```
+
+If `syft` is not found or `syft status` fails because the CLI is missing, complete the setup above first and then continue with skill installation.
+
 ## Option 1: Install From GitHub
 
 If your Codex environment has the built-in `$skill-installer`, the simplest path is to ask Codex to install directly from GitHub.
@@ -11,19 +21,19 @@ Copyable prompts:
 - install the orchestration entry point only:
 
 ```text
-Use $skill-installer to install https://github.com/Solatrader/syft-cli-skills/tree/main/codex-skills/syft-news-pipeline
+Use $skill-installer to install https://github.com/Solatrader/syft-news-skills/tree/main/codex-skills/syft-news-pipeline
 ```
 
 - install one atomic skill directly:
 
 ```text
-Use $skill-installer to install https://github.com/Solatrader/syft-cli-skills/tree/main/codex-skills/syft-daily-briefing
+Use $skill-installer to install https://github.com/Solatrader/syft-news-skills/tree/main/codex-skills/syft-daily-briefing
 ```
 
 - install the full pack:
 
 ```text
-Use $skill-installer to install these skill paths from the GitHub repo Solatrader/syft-cli-skills: codex-skills/syft-news-pipeline, codex-skills/syft-profile-summary, codex-skills/syft-daily-briefing, codex-skills/syft-storyline-tree, codex-skills/syft-storyline-backfill, codex-skills/syft-guidance-rulebook
+Use $skill-installer to install these skill paths from the GitHub repo Solatrader/syft-news-skills: codex-skills/syft-news-pipeline, codex-skills/syft-profile-summary, codex-skills/syft-daily-briefing, codex-skills/syft-storyline-tree, codex-skills/syft-storyline-backfill, codex-skills/syft-guidance-rulebook
 ```
 
 If you prefer to reason about the raw paths yourself, the Codex-oriented mirror lives under:
